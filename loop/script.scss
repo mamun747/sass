@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+// @for $i from 1 to 10{
+//     .Div- #{$i}{
+//         width: 200px;
+//         height: 100px;
+//         background-color: darken(green, $i * 10%);
+//     }
+// }
+
+// @for $i from 1 through 10{
+//     .Div#{$i}{
+//         width: #{$i * 50}px;
+//         height: #{$i * 10}px;
+//         background-color: darken(tomato, $i * 10%);
+//     }
+// }
+
+// $x: 1;
+// @while $x < 6{
+//     .heading-#{$x}{
+//         font-size: $x * 10px;
+//     }
+//     $x: $x + 1;
+// }
+
+// @for $z from 1 through 10{
+//     .heading-#{$z}{
+//         color: darken(#dddeee, $z * 10%);
+//         width: $z * 50px;
+//         background: #343434;
+//         margin: $z * 1px;
+//     }
+// }

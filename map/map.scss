@@ -1,0 +1,23 @@
+// map-get
+$fontSize: ("small": 10px, "mideum": 20px, "large": 40px);
+$fontSize2: ("bold": 100px, "semibold": 80px, "lightbold": 60px);
+$merging: map-merge($fontSize, $fontSize2);
+// map-get($fontSize, "small")
+// .size{
+//     font-size: map-get($fontSize, "large");
+// }
+
+//! it works as when a value is not exists in the list it returns boolean value
+// .size{
+//     font-size: map-has-key($fontSize, "larger");
+// }
+
+// it works as returns all of the values of the map variable
+// .size{
+//     font-size: map-keys($fontSize);
+// }
+
+// it merge two list together
+.size{
+    font-size: map-keys($merging)
+}

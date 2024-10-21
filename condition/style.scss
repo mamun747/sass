@@ -1,0 +1,27 @@
+// $myvalue: max;
+
+// .parentDiv{
+//     @if $myvalue == max{background-color: red;}
+//     @else if $myvalue == min{background-color: black;}
+//     @else {background-color: tomato;}
+//     width: 200px;
+//     height: 200px;
+// }
+
+// @mixin parentstyle($value){
+//     @if $value > 100{
+//         background-color: yellow;
+//     }@else if $value > 50{
+//         background-color: aqua;
+//     }@else if $value < 20{
+//         background-color: black;
+//     }@else{
+//         background-color: bisque;
+//     }
+// }
+
+// .Div {
+//     @include parentstyle(1);
+//     width: 200px;
+//     height: 200px;
+// }

@@ -1,0 +1,32 @@
+@import "demo.scss";
+// variable
+// $black: rgb(153, 143, 143);
+// $fontFamily: monospace;
+// h1{
+//     background: $black;
+//     font-family: $fontFamily;
+// }
+
+// nested rules
+// nav{
+//     ul{
+//         margin: 0;
+//         padding: 0;
+//         list-style: none;
+//     }
+//     li{
+//         display: inline-block;
+//         margin: 10px;
+//     }
+//     a{
+//         text-decoration: none;
+//     }
+// }
+
+.button{
+    @include mybutton;
+}
+.button2{
+    @extend .button;
+    background: #000;
+}
